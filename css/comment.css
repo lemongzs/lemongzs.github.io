@@ -120,12 +120,12 @@
   display: inline-block;
   width: auto;
   height: 3rem;
+  margin-right: 0.25rem;
   cursor: pointer;
   padding: 0.5rem;
   border-radius: 0.25rem;
   transition: box-shadow 0.2s ease-out, background 0.2s ease-out;
 }
-.v .form .smile-body li.active img,
 .v .form .smile-body img:hover {
   background: var(--grey-2);
   box-shadow: 1px 1px 2px var(--grey-1), -1px -1px 2px var(--grey-4), inset 8px 8px 16px var(--grey-1), inset -8px -8px 16px var(--grey-3);
@@ -144,8 +144,7 @@
   margin-right: 0.25rem;
 }
 .v .form .smile-body .smile-bar img {
-  width: 2.8rem;
-  height: 2.8rem;
+  width: 3rem;
   background: var(--grey-2);
   object-fit: contain;
 }
@@ -266,16 +265,15 @@
   color: var(--grey-1);
   padding: 0 0.3125rem;
   margin-right: 0.5rem;
-  background-color: var(--color-grey);
 }
 .v .item .tag.master {
-  background-color: var(--color-orange);
+  background: var(--color-orange);
 }
 .v .item .tag.friend {
-  background-color: var(--color-aqua);
+  background: var(--color-aqua);
 }
-.v .item .tag.investor {
-  background-color: var(--color-pink);
+.v .item .tag.visitor {
+  background: var(--color-grey);
 }
 .v .item .at {
   color: var(--primary-color);
